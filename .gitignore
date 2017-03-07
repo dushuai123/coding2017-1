@@ -1,5 +1,4 @@
 *.class
-
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -14,21 +13,9 @@ hs_err_pid*
 #ide config
 .metadata
 .recommenders
-
-*.settings
-*.project
-*.classpath
-*/.settings
+.idea/
 *.iml
-/.idea
-/**/target/**/*
+rebel.*
+.rebel.*
 
-*target
-*.classpath
-*.project
-*.settings
-*iml
-.idea
-*gen-*
-rebel.xml
-
+target
